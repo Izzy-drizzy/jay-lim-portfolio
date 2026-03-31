@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Videos are too large for GitHub — host externally (Cloudinary, etc.)
+public/assets/video/

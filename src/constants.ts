@@ -60,9 +60,9 @@ export const PROJECTS: Project[] = [
     gallery: [
       { type: "image", url: "/assets/photo/Strike back 1.png" },
       { type: "image", url: "/assets/photo/Strike back 2.png" },
-      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318304/Strike_Back_Season_5_episode5_Jay_Lim_clips_jofusq.3gp", caption: "Season 5 — Jay's scenes" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318304/Strike_Back_Season_5_episode5_Jay_Lim_clips_jofusq.mp4", caption: "Season 5 — Jay's scenes" },
       { type: "video", url: "/assets/video/Film/Strike_Back S5episode5 Jay Lim dies.mp4", caption: "Season 5 Episode 5 — final scene" }, // not yet on Cloudinary
-      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318333/Jay_Lim_fight_clip_1_1_da0rwf.3gp", caption: "Fight sequence" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318333/Jay_Lim_fight_clip_1_1_da0rwf.mp4", caption: "Fight sequence" },
     ]
   },
   {
@@ -122,7 +122,7 @@ export const PROJECTS: Project[] = [
     imageUrl: "/assets/photo/Film/20160509_133138.jpg",
     category: "Film",
     gallery: [
-      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318333/Jay_Lim_fight_clip_1_1_da0rwf.3gp", caption: "Fight sequence" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318333/Jay_Lim_fight_clip_1_1_da0rwf.mp4", caption: "Fight sequence" },
       { type: "image", url: "/assets/photo/Film/20160509_133138.jpg" },
       { type: "image", url: "/assets/photo/Sea of mirrors thumbnail.png" },
       { type: "image", url: "/assets/photo/Film/Screenshot_20210613-152049_Video Player.jpg" },

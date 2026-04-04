@@ -18,29 +18,27 @@ const Footer = () => {
                 contact@jaylim.com
               </a>
               <div className="flex gap-12 mt-8 text-[11px] uppercase tracking-[0.2em] font-sans opacity-50">
-                <a href="#" className="hover:opacity-100 transition-opacity">Instagram</a>
-                <a href="#" className="hover:opacity-100 transition-opacity">Twitter</a>
-                <a href="#" className="hover:opacity-100 transition-opacity">IMDb</a>
+                <a href="https://imdb.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-100 transition-opacity">IMDb</a>
               </div>
             </div>
           </div>
 
           <div className="glass-card p-12 rounded-2xl">
             <h3 className="text-xl font-serif italic mb-8">Representation</h3>
-            <div className="space-y-12">
-              <div>
-                <span className="text-[10px] uppercase tracking-[0.2em] opacity-30 block mb-4">UK / Europe</span>
-                <p className="text-lg font-sans font-semibold mb-1">United Agents</p>
-                <p className="text-sm opacity-50">London, United Kingdom</p>
-                <p className="text-sm opacity-50 mt-2">+44 (0) 20 1234 5678</p>
-              </div>
+            <div className="space-y-6">
+              <p className="text-lg font-sans font-semibold">Galloways, Fora</p>
+              <p className="text-sm opacity-50 leading-relaxed">
+                Henry Wood House<br />
+                4–5 Langham Place<br />
+                London W1B 3DG
+              </p>
               <div className="h-[1px] w-full bg-white/5" />
-              <div>
-                <span className="text-[10px] uppercase tracking-[0.2em] opacity-30 block mb-4">US / International</span>
-                <p className="text-lg font-sans font-semibold mb-1">Creative Artists Agency (CAA)</p>
-                <p className="text-sm opacity-50">Los Angeles, California</p>
-                <p className="text-sm opacity-50 mt-2">+1 310 123 4567</p>
-              </div>
+              <a
+                href="tel:+442076313134"
+                className="text-sm opacity-50 hover:opacity-100 transition-opacity font-sans"
+              >
+                (0)207 631 3134
+              </a>
             </div>
           </div>
         </div>

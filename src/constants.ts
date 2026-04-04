@@ -3,10 +3,10 @@ import { ActorInfo, Project, BTSContent } from './types';
 
 export const JAY_LIM_INFO: ActorInfo = {
   name: "Jay Lim",
-  title: "Actor / Stunts",
+  title: "Actor",
   location: "",
   bio: "Jay Lim is a versatile actor and stunt performer known for his compelling performances across film and theatre. With a background in classical training and a keen eye for contemporary storytelling, he brings depth and authenticity to every role. His work explores the complexities of human emotion and the subtle nuances of character relationships.",
-  showreelUrl: "https://assets.mixkit.co/videos/preview/mixkit-man-acting-on-a-stage-4412-large.mp4",
+  showreelUrl: "/assets/video/Jay Final Showreel.mp4",
   socials: {
     instagram: "https://instagram.com",
     twitter: "https://twitter.com",
@@ -16,20 +16,6 @@ export const JAY_LIM_INFO: ActorInfo = {
 
 export const PROJECTS: Project[] = [
   // — TV —
-  {
-    id: "tv-1",
-    title: "The Power",
-    role: "Guest Role",
-    year: 2023,
-    genre: "Supernatural Fantasy / Drama",
-    synopsis: "Based on the New York Times bestseller, The Power imagines a world where women develop a mysterious ability to electrocute at will — leading to an extraordinary global reversal of power.",
-    imageUrl: "/assets/photo/Film/Screenshot_20210613-152049_Video Player.jpg",
-    category: "TV",
-    gallery: [
-      { type: "image", url: "/assets/photo/Film/Screenshot_20210613-152049_Video Player.jpg" },
-      { type: "image", url: "/assets/photo/Film/Screenshot_20210613-145756_Video Player.jpg" },
-    ]
-  },
   {
     id: "tv-2",
     title: "Wedding Season",
@@ -82,8 +68,8 @@ export const PROJECTS: Project[] = [
   {
     id: "tv-5",
     title: "Obsession: Dark Desires",
-    role: "Featured",
-    year: 2013,
+    role: "Lead",
+    year: 2024,
     genre: "Crime / Docudrama",
     synopsis: "A bone-chilling documentary series exploring real life stories of obsession told by the victims — from chance encounters to dangerous fixations.",
     imageUrl: "/assets/photo/Film/TV series The Dark Desires.jpg",
@@ -133,10 +119,14 @@ export const PROJECTS: Project[] = [
     year: 2019,
     genre: "Thriller",
     synopsis: "A former famous Japanese actress races to find her kidnapped daughter before her obsession with the limelight and the thrills of Macau push her to the brink of madness.",
-    imageUrl: "/assets/photo/Sea of mirrors thumbnail.png",
+    imageUrl: "/assets/photo/Film/20160509_133138.jpg",
     category: "Film",
     gallery: [
+      { type: "video", url: "/assets/video/Film/Jay Lim fight clip_1_1.mp4", caption: "Fight sequence" },
+      { type: "image", url: "/assets/photo/Film/20160509_133138.jpg" },
       { type: "image", url: "/assets/photo/Sea of mirrors thumbnail.png" },
+      { type: "image", url: "/assets/photo/Film/Screenshot_20210613-152049_Video Player.jpg" },
+      { type: "image", url: "/assets/photo/Film/Screenshot_20210613-145756_Video Player.jpg" },
       { type: "image", url: "/assets/photo/BTS/20180518_105802.png", caption: "Featured in Macau Daily" },
     ]
   },
@@ -151,7 +141,6 @@ export const PROJECTS: Project[] = [
     category: "Film",
     gallery: [
       { type: "image", url: "/assets/photo/Homefront thumbnail.png" },
-      { type: "image", url: "/assets/photo/Film/20160509_133138.jpg", caption: "Recording session, 2016" },
     ]
   },
 
@@ -159,7 +148,7 @@ export const PROJECTS: Project[] = [
   {
     id: "th-1",
     title: "Macbeth",
-    role: "Featured Role",
+    role: "Lead",
     year: 2023,
     genre: "Tragedy",
     synopsis: "Shakespeare's timeless tale of ambition, power, and moral corruption brought to the stage with visceral intensity and contemporary staging.",
@@ -265,7 +254,7 @@ export const PROJECTS: Project[] = [
     id: "com-4",
     title: "Doritos: Squid Game",
     role: "Lead",
-    year: 2022,
+    year: 2025,
     genre: "Commercial",
     synopsis: "High-concept Doritos campaign inspired by the global Squid Game phenomenon, with Jay leading a cinematic recreation of the show's iconic imagery.",
     imageUrl: "/assets/photo/Doritos x Squid game.png",
@@ -308,7 +297,7 @@ export const PROJECTS: Project[] = [
     id: "com-7",
     title: "The Guardian / Ethax",
     role: "Lead",
-    year: 2014,
+    year: 2025,
     genre: "Commercial",
     synopsis: "Brand campaign for The Guardian newspaper in association with Ethax, with Jay in the central role across a high-profile UK media campaign.",
     imageUrl: "/assets/photo/The guardian ethax.png",

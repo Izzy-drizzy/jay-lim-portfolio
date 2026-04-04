@@ -6,7 +6,7 @@ export const JAY_LIM_INFO: ActorInfo = {
   title: "Actor",
   location: "",
   bio: "Jay Lim is a versatile actor and stunt performer known for his compelling performances across film and theatre. With a background in classical training and a keen eye for contemporary storytelling, he brings depth and authenticity to every role. His work explores the complexities of human emotion and the subtle nuances of character relationships.",
-  showreelUrl: "/assets/video/Jay Final Showreel.mp4",
+  showreelUrl: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318228/Jay_Final_Showreel_vvqvmw.mp4",
   socials: {
     instagram: "https://instagram.com",
     twitter: "https://twitter.com",
@@ -44,8 +44,8 @@ export const PROJECTS: Project[] = [
       { type: "image", url: "/assets/photo/Film/Drama The Window 3.jpg" },
       { type: "image", url: "/assets/photo/Film/Drama The Window 4.jpg" },
       { type: "image", url: "/assets/photo/BTS/Drama The Windows set.jpg", caption: "On set between takes" },
-      { type: "video", url: "/assets/video/BTS/filming set Drama The Window scene Jay is about to die.mp4", caption: "Final moments — pre-scene" },
-      { type: "video", url: "/assets/video/BTS/filming set Drama The Window scene Jay dies.mp4", caption: "Death scene — behind the camera" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318235/filming_set_Drama_The_Window_scene_Jay_is_about_to_die_p9ympo.mp4", caption: "Final moments — pre-scene" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318237/filming_set_Drama_The_Window_scene_Jay_dies_iveney.mp4", caption: "Death scene — behind the camera" },
     ]
   },
   {
@@ -60,9 +60,9 @@ export const PROJECTS: Project[] = [
     gallery: [
       { type: "image", url: "/assets/photo/Strike back 1.png" },
       { type: "image", url: "/assets/photo/Strike back 2.png" },
-      { type: "video", url: "/assets/video/Film/Strike_Back Season 5 episode5 Jay Lim clips.mp4", caption: "Season 5 — Jay's scenes" },
-      { type: "video", url: "/assets/video/Film/Strike_Back S5episode5 Jay Lim dies.mp4", caption: "Season 5 Episode 5 — final scene" },
-      { type: "video", url: "/assets/video/Film/Jay Lim fight clip_1_1.mp4", caption: "Fight sequence" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318304/Strike_Back_Season_5_episode5_Jay_Lim_clips_jofusq.3gp", caption: "Season 5 — Jay's scenes" },
+      { type: "video", url: "/assets/video/Film/Strike_Back S5episode5 Jay Lim dies.mp4", caption: "Season 5 Episode 5 — final scene" }, // not yet on Cloudinary
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318333/Jay_Lim_fight_clip_1_1_da0rwf.3gp", caption: "Fight sequence" },
     ]
   },
   {
@@ -96,7 +96,7 @@ export const PROJECTS: Project[] = [
     category: "Film",
     gallery: [
       { type: "image", url: "/assets/photo/My son hunter Thumbnail.png" },
-      { type: "video", url: "/assets/video/Film/My Son Hunter_Jay part.mp4", caption: "Jay's scenes" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318316/My_Son_Hunter_Jay_part_cuqcee.mp4", caption: "Jay's scenes" },
     ]
   },
   {
@@ -122,7 +122,7 @@ export const PROJECTS: Project[] = [
     imageUrl: "/assets/photo/Film/20160509_133138.jpg",
     category: "Film",
     gallery: [
-      { type: "video", url: "/assets/video/Film/Jay Lim fight clip_1_1.mp4", caption: "Fight sequence" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318333/Jay_Lim_fight_clip_1_1_da0rwf.3gp", caption: "Fight sequence" },
       { type: "image", url: "/assets/photo/Film/20160509_133138.jpg" },
       { type: "image", url: "/assets/photo/Sea of mirrors thumbnail.png" },
       { type: "image", url: "/assets/photo/Film/Screenshot_20210613-152049_Video Player.jpg" },
@@ -261,7 +261,7 @@ export const PROJECTS: Project[] = [
     category: "Commercial",
     gallery: [
       { type: "image", url: "/assets/photo/Doritos x Squid game.png" },
-      { type: "video", url: "/assets/video/Commercial/Doritos squid game 3 Jay.mp4", caption: "Campaign film" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318252/Doritos_squid_game_3_Jay_oor4ln.mp4", caption: "Campaign film" },
     ]
   },
   {
@@ -275,7 +275,7 @@ export const PROJECTS: Project[] = [
     category: "Commercial",
     gallery: [
       { type: "image", url: "/assets/photo/Hyundai.png" },
-      { type: "video", url: "/assets/video/Commercial/Hyundai TVCommercial i35.mp4", caption: "TV commercial" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318252/Hyundai_TVCommercial_i35_q9iuyu.mp4", caption: "TV commercial" },
     ]
   },
   {
@@ -289,7 +289,7 @@ export const PROJECTS: Project[] = [
     category: "Commercial",
     gallery: [
       { type: "image", url: "/assets/photo/Gotomeeting.png" },
-      { type: "video", url: "/assets/video/Commercial/Ben Discovers GoToMeeting.mp4", caption: "Ben Discovers GoToMeeting — campaign film" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318252/Ben_Discovers_GoToMeeting_mitpqo.mp4", caption: "Ben Discovers GoToMeeting — campaign film" },
       { type: "image", url: "/assets/photo/BTS/20150904_112715.jpg", caption: "On set" },
     ]
   },
@@ -304,7 +304,7 @@ export const PROJECTS: Project[] = [
     category: "Commercial",
     gallery: [
       { type: "image", url: "/assets/photo/The guardian ethax.png" },
-      { type: "video", url: "/assets/video/Commercial/THE GUARDIAN-Ethax- Jay Lim.mp4", caption: "Campaign film" },
+      { type: "video", url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318266/THE_GUARDIAN-Ethax-_Jay_Lim_bcqfvz.mp4", caption: "Campaign film" },
       { type: "image", url: "/assets/photo/Commercial/my face in london tube station.png", caption: "London Underground advertising" },
     ]
   }
@@ -329,7 +329,7 @@ export const BTS_GALLERY: BTSContent[] = [
     id: "bts-3",
     title: "Final Moments — The Window",
     type: "video",
-    url: "/assets/video/BTS/filming set Drama The Window scene Jay is about to die.mp4",
+    url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318235/filming_set_Drama_The_Window_scene_Jay_is_about_to_die_p9ympo.mp4",
     anecdote: "The moment just before my character's final scene. There's a strange calm that descends before a big emotional beat — the crew goes quiet, and everything narrows to just the scene in front of you."
   },
   {
@@ -371,7 +371,7 @@ export const BTS_GALLERY: BTSContent[] = [
     id: "bts-9",
     title: "Death Scene — The Window",
     type: "video",
-    url: "/assets/video/BTS/filming set Drama The Window scene Jay dies.mp4",
+    url: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318237/filming_set_Drama_The_Window_scene_Jay_dies_iveney.mp4",
     anecdote: "The moment the director called action on this scene, everything fell away. Dying on camera is one of the stranger experiences in this job — there's a stillness to it that stays with you long after wrap."
   },
   {

@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="glass-card p-12 rounded-2xl">
             <h3 className="text-xl font-serif italic mb-8">Representation</h3>
             <div className="space-y-6">
-              <p className="text-lg font-sans font-semibold">Galloways, Fora</p>
+              <p className="text-lg font-sans font-semibold">Galloways</p>
               <p className="text-sm opacity-50 leading-relaxed">
                 Henry Wood House<br />
                 4–5 Langham Place<br />

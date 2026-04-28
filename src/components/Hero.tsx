@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { motion } from 'motion/react';
-import { Volume2, VolumeX } from 'lucide-react';
+import { Volume2, VolumeX, ChevronDown } from 'lucide-react';
 import { JAY_LIM_INFO } from '../constants';
 
 const Hero = () => {
@@ -78,11 +78,11 @@ const Hero = () => {
 
       {/* Scroll indicator */}
       <motion.div
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
-        className="absolute bottom-16 left-1/2 -translate-x-1/2 opacity-30"
+        animate={{ y: [0, 8, 0] }}
+        transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+        className="absolute bottom-6 md:bottom-16 left-1/2 -translate-x-1/2 opacity-30"
       >
-        <div className="w-[1px] h-12 bg-white" />
+        <ChevronDown size={24} strokeWidth={1.5} />
       </motion.div>
     </section>
   );

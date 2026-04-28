@@ -39,8 +39,9 @@ const BehindTheScenes = () => {
                 />
               ) : (
                 <div className="w-full h-full bg-white/5 flex items-center justify-center">
-                  <video 
-                    src={item.url} 
+                  <video
+                    ref={(el) => { if (el) el.muted = true; }}
+                    src={item.url}
                     className="w-full h-full object-cover grayscale opacity-40 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-1000"
                     muted
                     loop
@@ -99,11 +100,10 @@ const BehindTheScenes = () => {
                       referrerPolicy="no-referrer"
                     />
                   ) : (
-                    <video 
-                      src={selectedItem.url} 
+                    <video
+                      src={selectedItem.url}
                       className="w-full h-full object-cover"
                       controls
-                      autoPlay
                       playsInline
                     />
                   )}

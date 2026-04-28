@@ -10,6 +10,9 @@ const Hero = () => {
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
+    // React's `muted` JSX prop doesn't reliably set the DOM attribute on iOS Safari,
+    // which blocks autoplay. Setting it via ref ensures autoplay works.
+    video.muted = true;
     const setSpeed = () => { video.playbackRate = 0.7; };
     video.addEventListener('loadedmetadata', setSpeed);
     if (video.readyState >= 1) setSpeed();

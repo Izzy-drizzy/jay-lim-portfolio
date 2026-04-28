@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, ChevronLeft, ChevronRight, Play } from 'lucide-react';
 import { Project, GalleryItem } from '../types';
@@ -9,11 +9,10 @@ interface Props {
 }
 
 const VideoThumbnail = ({ url, onClick }: { url: string; onClick: () => void }) => {
-  const videoRef = useRef<HTMLVideoElement>(null);
   return (
     <div className="relative w-full h-full cursor-pointer group/vid" onClick={onClick}>
       <video
-        ref={videoRef}
+        ref={(el) => { if (el) el.muted = true; }}
         src={url}
         className="w-full h-full object-cover"
         muted
@@ -104,7 +103,7 @@ const LightboxModal = ({
           <video
             src={item.url}
             controls
-            autoPlay
+            playsInline
             className="max-w-full max-h-[75vh] rounded-lg"
           />
         )}

@@ -28,6 +28,14 @@ const Showreel = () => {
     }
   };
 
+  const toggleMute = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (videoRef.current) {
+      videoRef.current.muted = !isMuted;
+      setIsMuted(!isMuted);
+    }
+  };
+
   return (
     <section id="showreel" ref={containerRef} className="py-24 px-6 md:px-12 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto">
@@ -55,15 +63,15 @@ const Showreel = () => {
             playsInline
           />
           
-          <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500">
             <div className="w-24 h-24 rounded-full border border-white/30 flex items-center justify-center backdrop-blur-sm">
               {isPlaying ? <Pause size={32} /> : <Play size={32} className="ml-2" />}
             </div>
           </div>
 
           <div className="absolute bottom-8 right-8 flex gap-4">
-            <button 
-              onClick={(e) => { e.stopPropagation(); setIsMuted(!isMuted); }}
+            <button
+              onClick={toggleMute}
               className="p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/10 hover:bg-white/20 transition-colors"
             >
               {isMuted ? <VolumeX size={18} /> : <Volume2 size={18} />}

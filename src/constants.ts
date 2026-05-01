@@ -5,7 +5,7 @@ export const JAY_LIM_INFO: ActorInfo = {
   name: "Jay Lim",
   title: "Actor",
   location: "",
-  bio: "Jay Lim is a versatile actor and stunt performer known for his compelling performances across film and theatre. With a background in classical training and a keen eye for contemporary storytelling, he brings depth and authenticity to every role. His work explores the complexities of human emotion and the subtle nuances of character relationships.",
+  bio: "Jay Lim is a versatile actor known for his compelling performances across film and theatre. With a background in classical training and a keen eye for contemporary storytelling, he brings depth and authenticity to every role. His work explores the complexities of human emotion and the subtle nuances of character relationships.",
   showreelUrl: "https://res.cloudinary.com/dd2dxo3lo/video/upload/q_auto/f_auto/v1775318228/Jay_Final_Showreel_vvqvmw.mp4",
   socials: {
     instagram: "https://instagram.com",

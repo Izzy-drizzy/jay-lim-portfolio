@@ -46,7 +46,7 @@ const About = () => {
             <div className="mt-16 grid grid-cols-2 md:grid-cols-3 gap-12">
               <div>
                 <span className="text-[10px] uppercase tracking-[0.2em] opacity-30 block mb-2">Height</span>
-                <p className="text-xl font-serif italic">6'1\" / 185cm</p>
+                <p className="text-xl font-serif italic">5'11" / 180cm</p>
               </div>
               <div>
                 <span className="text-[10px] uppercase tracking-[0.2em] opacity-30 block mb-2">Eyes</span>

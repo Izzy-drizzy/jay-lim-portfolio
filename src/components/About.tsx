@@ -38,7 +38,8 @@ const About = () => {
             <div className="space-y-8 text-lg opacity-60 font-sans leading-relaxed">
               <p>{JAY_LIM_INFO.bio}</p>
               <p>
-                Beyond the screen, Jay is a passionate advocate for diversity in the arts and frequently leads workshops for aspiring young performers. He believes that the power of performance lies in its ability to foster empathy and bridge cultural divides.
+                Jay Lim is an actor based between Korea, the UK, and Europe. He works in both Korean and English, which means he moves comfortably across very different kinds of stories and screens.
+                His training started in classical theatre in Seoul, Korea, but he's spent most of his career in contemporary work — film, stage, and everything in between. That shift across cultures and formats has shaped how he approaches a role, whether it's a small independent production or a major stage piece.
               </p>
             </div>
 

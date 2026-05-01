@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { JAY_LIM_INFO } from '../constants';
 
 const About = () => {
   return (
@@ -36,7 +35,6 @@ const About = () => {
           >
             <span className="text-[10px] uppercase tracking-[0.4em] opacity-40 block mb-6">03 / Biography</span>
             <div className="space-y-8 text-lg opacity-60 font-sans leading-relaxed">
-              <p>{JAY_LIM_INFO.bio}</p>
               <p>
                 Jay Lim is an actor based between Korea, the UK, and Europe. He works in both Korean and English, which means he moves comfortably across very different kinds of stories and screens.
                 His training started in classical theatre in Seoul, Korea, but he's spent most of his career in contemporary work — film, stage, and everything in between. That shift across cultures and formats has shaped how he approaches a role, whether it's a small independent production or a major stage piece.

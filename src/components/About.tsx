@@ -20,11 +20,6 @@ const About = () => {
                 className="w-full h-full object-cover grayscale"
               />
             </div>
-            <div className="absolute -bottom-12 -right-12 w-48 h-48 rounded-full border border-white/10 flex items-center justify-center backdrop-blur-sm hidden md:flex">
-              <span className="text-[10px] uppercase tracking-[0.4em] font-sans opacity-40 text-center">
-                Est. <br /> 2018
-              </span>
-            </div>
           </motion.div>
 
           <motion.div

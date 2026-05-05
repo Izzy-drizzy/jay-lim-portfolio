@@ -13,7 +13,7 @@ const Footer = () => {
               Let's <br /> <span className="text-glow italic font-serif lowercase">Create</span>
             </h2>
             <div className="flex flex-col gap-6">
-              <a href="mailto:contact@jaylim.com" className="group flex items-center gap-4 text-2xl md:text-3xl font-serif italic hover:text-glow transition-all">
+              <a href="mailto:actorjaylim@googlemail.com" className="group flex items-center gap-4 text-2xl md:text-3xl font-serif italic hover:text-glow transition-all">
                 <Mail className="opacity-40 group-hover:opacity-100 transition-opacity" size={24} />
                 actorjaylim@googlemail.com
               </a>

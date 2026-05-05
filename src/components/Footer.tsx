@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="flex flex-col gap-6">
               <a href="mailto:contact@jaylim.com" className="group flex items-center gap-4 text-2xl md:text-3xl font-serif italic hover:text-glow transition-all">
                 <Mail className="opacity-40 group-hover:opacity-100 transition-opacity" size={24} />
-                contact@jaylim.com
+                actorjaylim@googlemail.com
               </a>
               <div className="flex gap-12 mt-8 text-[11px] uppercase tracking-[0.2em] font-sans opacity-50">
                 <a href="https://imdb.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-100 transition-opacity">IMDb</a>

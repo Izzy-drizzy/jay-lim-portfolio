@@ -13,10 +13,10 @@ const About = () => {
             transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
             className="relative"
           >
-            <div className="aspect-[4/3] rounded-2xl overflow-hidden glass-card">
+            <div className="aspect-[9/10] rounded-2xl overflow-hidden glass-card">
               <img
-                src="/assets/photo/hero image.jpg"
-                alt="Jay Lim About"
+                src="/assets/photo/Bio Image.jpg"
+                alt="Jay Lim"
                 className="w-full h-full object-cover grayscale"
               />
             </div>
@@ -36,9 +36,8 @@ const About = () => {
             <span className="text-[10px] uppercase tracking-[0.4em] opacity-40 block mb-6">03 / Biography</span>
             <div className="space-y-8 text-lg opacity-60 font-sans leading-relaxed">
               <p>
-                Jay Lim is an actor based between Korea, the UK, and Europe. He works in both Korean and English, which means he moves comfortably across very different kinds of stories and screens.
-                His training started in classical theatre in Seoul, Korea, but he's spent most of his career in contemporary work — film, stage, and everything in between. That shift across cultures and formats has shaped how he approaches a role, whether it's a small independent production or a major stage piece.
-              </p>
+                Jay Lim is an actor based between Korea, the UK, and Europe. Working fluently in both Korean and English, he moves comfortably accross a vast range of projects, from independent films to major network series.
+                </p>
             </div>
 
             <div className="mt-16 grid grid-cols-2 md:grid-cols-3 gap-12">
